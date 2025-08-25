@@ -248,15 +248,21 @@ function App() {
               I craft powerful web applications with React and Node.js, turning ideas into scalable digital solutions.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="gap-2">
+              <Button
+                onClick={() => window.location = 'mailto:mr.madhu.uppala@gmail.com'}
+                size="lg" className="gap-2">
                 <Mail className="w-4 h-4" />
                 Get In Touch
               </Button>
-              <Button size="lg" variant="outline" className="gap-2">
+              <Button
+                onClick={() => window.location = 'https://github.com/Dev-Madhu-3'}
+                size="lg" variant="outline" className="gap-2">
                 <Github className="w-4 h-4" />
                 View GitHub
               </Button>
-              <Button size="lg" variant="outline" className="gap-2">
+              <Button
+                onClick={() => window.location = 'https://www.linkedin.com/in/madhu-uppala'}
+                size="lg" variant="outline" className="gap-2">
                 <Linkedin className="w-4 h-4" />
                 LinkedIn
               </Button>
