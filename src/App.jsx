@@ -181,7 +181,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 z-50 border-b border-gray-200">
-        <div className="container mx-auto px-4">
+        <div className="container md:max-w-[80%] mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -234,8 +234,8 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="container mx-auto px-4 pt-24 pb-20 md:pt-32 md:pb-32">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+      <section id="home" className="container px-4 pt-24 pb-20 md:pt-32 md:pb-32">
+        <div className="flex flex-col md:flex-row md:max-w-[80%] mx-auto items-center justify-between gap-12">
           <div className="flex-1 max-w-2xl">
             <div className="flex items-center gap-2 mb-4">
               <Badge variant="secondary">Full Stack Developer</Badge>
